@@ -311,7 +311,7 @@ function updateTime() {
 
 uptime();
 updateTime();
-setInterval(uptime, 2000);
+setInterval(uptime, 60000);
 setInterval(updateTime, 500);
 
 
